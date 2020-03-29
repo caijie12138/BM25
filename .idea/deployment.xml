@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="jiabin@162.105.87.191:20743">
+    <serverData>
+      <paths name="jiabin@162.105.87.191:20743">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/jiabin/caijie/qa_dataset_survey/BM25" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
