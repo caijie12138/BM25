@@ -33,7 +33,7 @@ class CorpusParser(object):
 class QueryParser(object):
     def __init__(self,file_path):
         self.file_path = file_path
-        self.quires = []
+        self.queries = []
 
     def parse(self):
         '''
@@ -42,13 +42,13 @@ class QueryParser(object):
         '''
         with open(self.file_path) as f:
             for line in f.readlines():
-                self.quires.append(line.strip().split())
+                self.queries.append(line.strip().split())
 
-    def get_quires(self):
+    def get_queries(self):
         '''
         Get the structural corpus.
         :return: self.corpus
         '''
-        return self.quires
+        return self.queries
 
 
